@@ -1,5 +1,36 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+nav>a {
+    padding: 10px 10px;
+    background-color: grey;
+}
+
+figcaption {
+    font-size: small;
+    text-align: center;
+}
+
+figure~p {
+    width: 800px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+section>div {
+    float: left;
+    text-align: center;
+    width: 25%;
+    background-color: cyan;
 }
